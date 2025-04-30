@@ -8,10 +8,10 @@
 
 function enterClicked() {
   // input
-  const farenheit = parseFloat(document.getElementById("farenheit").value)
+  const fahrenheit = parseFloat(document.getElementById("fahrenheit").value)
   // process
-  const celcius = (farenheit - 32) * 5 / 9
+  const celsius = (fahrenheit - 32) * 5 / 9
   // output
   document.getElementById("answer").innerHTML =
-    "The temperature in celcius is: " + celcius.toFixed(3) + " °C."
+    "The temperature in celsius is: " + celsius.toFixed(3) + " °C."
 }
